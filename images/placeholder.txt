@@ -1,0 +1,39 @@
+# Image Placeholders
+
+This directory contains placeholder references for images used in the portfolio website.
+
+## Required Images:
+
+### Profile Images:
+- profile.jpg (300x300px) - Main profile photo for hero section
+- profile-about.jpg (400x400px) - About page profile photo
+
+### Project Images:
+- projects/ecommerce.jpg (400x300px) - E-commerce platform screenshot
+- projects/dashboard.jpg (400x300px) - Analytics dashboard screenshot  
+- projects/mobile-app.jpg (400x300px) - Mobile app screenshot
+- projects/restaurant.jpg (400x300px) - Restaurant website screenshot
+- projects/social-media.jpg (400x300px) - Social media app screenshot
+- projects/portfolio.jpg (400x300px) - Portfolio website screenshot
+
+### Background Images:
+- hero-bg.jpg (1920x1080px) - Hero section background (optional)
+
+## Image Guidelines:
+- Use high-quality, professional images
+- Optimize for web (compress without losing quality)
+- Use consistent aspect ratios
+- Ensure images are properly licensed for use
+- Consider using placeholder services like Unsplash or Pexels for demo purposes
+
+## Free Image Resources:
+- Unsplash.com
+- Pexels.com
+- Pixabay.com
+- Freepik.com (with attribution)
+
+## Image Optimization:
+- Use WebP format when possible
+- Provide fallbacks for older browsers
+- Implement lazy loading for better performance
+- Use appropriate alt text for accessibility
