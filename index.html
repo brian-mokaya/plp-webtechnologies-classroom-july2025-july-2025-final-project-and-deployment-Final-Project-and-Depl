@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Web Developer Portfolio - Modern, responsive websites and web applications">
+    <meta name="keywords" content="web developer, portfolio, HTML, CSS, JavaScript, React, responsive design">
+    <title>Alex Johnson - Web Developer Portfolio</title>
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animations.css">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__brand">
+                <a href="index.html" class="nav__logo">
+                    <span class="nav__logo-text">Alex Johnson</span>
+                </a>
+            </div>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link active">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="about.html" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="services.html" class="nav__link">Services</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="portfolio.html" class="nav__link">Portfolio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contact.html" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+                
+                <div class="nav__close" id="nav-close">
+                    <i class="nav__close-icon">×</i>
+                </div>
+            </div>
+            
+            <div class="nav__toggle" id="nav-toggle">
+                <span class="nav__toggle-line"></span>
+                <span class="nav__toggle-line"></span>
+                <span class="nav__toggle-line"></span>
+            </div>
+            
+            <div class="nav__theme-toggle" id="theme-toggle">
+                <i class="nav__theme-icon">🌙</i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero section" id="home">
+            <div class="hero__container container">
+                <div class="hero__content">
+                    <h1 class="hero__title">
+                        Hi, I'm <span class="hero__title-accent">Alex Johnson</span>
+                    </h1>
+                    <h2 class="hero__subtitle">Full-Stack Web Developer</h2>
+                    <p class="hero__description">
+                        I create modern, responsive websites and web applications that deliver exceptional user experiences. 
+                        Passionate about clean code, innovative design, and cutting-edge technologies.
+                    </p>
+                    <div class="hero__buttons">
+                        <a href="portfolio.html" class="btn btn--primary">View My Work</a>
+                        <a href="contact.html" class="btn btn--outline">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero__image">
+                    <div class="hero__image-container">
+                        <img src="images/profile.jpg" alt="Alex Johnson - Web Developer" class="hero__img">
+                        <div class="hero__image-bg"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills section" id="skills">
+            <div class="container">
+                <h2 class="section__title">Technical Skills</h2>
+                <div class="skills__container">
+                    <div class="skills__category">
+                        <h3 class="skills__category-title">Frontend</h3>
+                        <div class="skills__list">
+                            <span class="skill__item">HTML5</span>
+                            <span class="skill__item">CSS3</span>
+                            <span class="skill__item">JavaScript</span>
+                            <span class="skill__item">React</span>
+                            <span class="skill__item">Vue.js</span>
+                            <span class="skill__item">TypeScript</span>
+                        </div>
+                    </div>
+                    <div class="skills__category">
+                        <h3 class="skills__category-title">Backend</h3>
+                        <div class="skills__list">
+                            <span class="skill__item">Node.js</span>
+                            <span class="skill__item">Python</span>
+                            <span class="skill__item">Express</span>
+                            <span class="skill__item">MongoDB</span>
+                            <span class="skill__item">PostgreSQL</span>
+                            <span class="skill__item">REST APIs</span>
+                        </div>
+                    </div>
+                    <div class="skills__category">
+                        <h3 class="skills__category-title">Tools & Others</h3>
+                        <div class="skills__list">
+                            <span class="skill__item">Git</span>
+                            <span class="skill__item">Docker</span>
+                            <span class="skill__item">AWS</span>
+                            <span class="skill__item">Figma</span>
+                            <span class="skill__item">Webpack</span>
+                            <span class="skill__item">Jest</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Projects Section -->
+        <section class="featured section" id="featured">
+            <div class="container">
+                <h2 class="section__title">Featured Projects</h2>
+                <div class="featured__container">
+                    <article class="project__card featured__card">
+                        <div class="project__image">
+                            <img src="images/projects/ecommerce.jpg" alt="E-commerce Platform" class="project__img">
+                            <div class="project__overlay">
+                                <a href="portfolio.html" class="project__link">View Details</a>
+                            </div>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">E-commerce Platform</h3>
+                            <p class="project__description">
+                                Full-stack e-commerce solution with React frontend, Node.js backend, and MongoDB database.
+                            </p>
+                            <div class="project__tech">
+                                <span class="tech__tag">React</span>
+                                <span class="tech__tag">Node.js</span>
+                                <span class="tech__tag">MongoDB</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project__card featured__card">
+                        <div class="project__image">
+                            <img src="images/projects/dashboard.jpg" alt="Analytics Dashboard" class="project__img">
+                            <div class="project__overlay">
+                                <a href="portfolio.html" class="project__link">View Details</a>
+                            </div>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Analytics Dashboard</h3>
+                            <p class="project__description">
+                                Real-time data visualization dashboard with interactive charts and responsive design.
+                            </p>
+                            <div class="project__tech">
+                                <span class="tech__tag">Vue.js</span>
+                                <span class="tech__tag">D3.js</span>
+                                <span class="tech__tag">Python</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project__card featured__card">
+                        <div class="project__image">
+                            <img src="images/projects/mobile-app.jpg" alt="Mobile App" class="project__img">
+                            <div class="project__overlay">
+                                <a href="portfolio.html" class="project__link">View Details</a>
+                            </div>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Task Management App</h3>
+                            <p class="project__description">
+                                Cross-platform mobile application for task management with offline capabilities.
+                            </p>
+                            <div class="project__tech">
+                                <span class="tech__tag">React Native</span>
+                                <span class="tech__tag">Firebase</span>
+                                <span class="tech__tag">Redux</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="featured__cta">
+                    <a href="portfolio.html" class="btn btn--primary">View All Projects</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta section" id="cta">
+            <div class="container">
+                <div class="cta__content">
+                    <h2 class="cta__title">Ready to Start Your Project?</h2>
+                    <p class="cta__description">
+                        Let's work together to bring your ideas to life with modern web technologies and exceptional design.
+                    </p>
+                    <div class="cta__buttons">
+                        <a href="contact.html" class="btn btn--primary btn--large">Get Started</a>
+                        <a href="services.html" class="btn btn--outline btn--large">View Services</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <h3 class="footer__title">Alex Johnson</h3>
+                    <p class="footer__description">Full-Stack Web Developer</p>
+                </div>
+                <div class="footer__links">
+                    <div class="footer__group">
+                        <h4 class="footer__group-title">Quick Links</h4>
+                        <ul class="footer__list">
+                            <li><a href="index.html" class="footer__link">Home</a></li>
+                            <li><a href="about.html" class="footer__link">About</a></li>
+                            <li><a href="services.html" class="footer__link">Services</a></li>
+                            <li><a href="portfolio.html" class="footer__link">Portfolio</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__group">
+                        <h4 class="footer__group-title">Connect</h4>
+                        <ul class="footer__list">
+                            <li><a href="mailto:alex@example.com" class="footer__link">Email</a></li>
+                            <li><a href="https://linkedin.com/in/alexjohnson" class="footer__link" target="_blank">LinkedIn</a></li>
+                            <li><a href="https://github.com/alexjohnson" class="footer__link" target="_blank">GitHub</a></li>
+                            <li><a href="https://twitter.com/alexjohnson" class="footer__link" target="_blank">Twitter</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copyright">
+                    &copy; 2024 Alex Johnson. All rights reserved. Built with ❤️ and modern web technologies.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="js/main.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>
