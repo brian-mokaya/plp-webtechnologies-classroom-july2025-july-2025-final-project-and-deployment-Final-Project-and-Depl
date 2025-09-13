@@ -46,7 +46,7 @@ function initializeTheme() {
 function updateThemeIcon(theme) {
     const themeIcon = document.querySelector('.nav__theme-icon');
     if (themeIcon) {
-        themeIcon.textContent = theme === 'light' ? '🌙' : '☀️';
+        themeIcon.textContent = theme === 'light' ? '☽' : '☀';
     }
 }
 

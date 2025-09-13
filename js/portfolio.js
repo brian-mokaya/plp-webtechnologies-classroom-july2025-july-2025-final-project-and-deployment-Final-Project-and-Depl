@@ -415,12 +415,13 @@ function initializeProjectLikes() {
 
 function createHeartAnimation(element) {
     const heart = document.createElement('div');
-    heart.innerHTML = '❤️';
+    heart.innerHTML = '♥';
     heart.style.cssText = `
         position: absolute;
         font-size: 20px;
         pointer-events: none;
         animation: heartFloat 1s ease-out forwards;
+        color: var(--danger-color);
     `;
     
     element.style.position = 'relative';
