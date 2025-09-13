@@ -4,7 +4,7 @@ A modern, responsive portfolio website showcasing web development skills, projec
 
 ## 🌐 Live Demo
 
-**Live URL:** [https://your-username.github.io/portfolio-website](https://your-username.github.io/portfolio-website)
+**Live URL:** [https://your-username.github.io/portfolio-website](https://mokaya-portfolio.vercel.app/)
 
 ## 📋 Project Overview
 
@@ -107,8 +107,6 @@ portfolio-website/
 
 2. **Open in browser**
    ```bash
-   # Using Python (if installed)
-   python -m http.server 8000
    
    # Using Node.js (if installed)
    npx serve .
@@ -116,42 +114,14 @@ portfolio-website/
    # Or simply open index.html in your browser
    ```
 
-3. **Customize content**
-   - Update personal information in HTML files
-   - Replace placeholder images in `/images` folder
-   - Modify colors and styling in CSS variables
-   - Add your own projects to portfolio section
-
-## 🎨 Customization
-
-### Colors and Theming
-Edit CSS custom properties in `css/styles.css`:
-
-```css
-:root {
-  --primary-color: #007bff;
-  --secondary-color: #6c757d;
-  --accent-color: #28a745;
-  /* ... more variables */
-}
-```
-
-### Adding Projects
-1. Add project images to `/images/projects/`
-2. Update project data in `js/portfolio.js`
-3. Add project cards to `portfolio.html`
-
-### Form Configuration
-Update form handling in `js/forms.js` to connect to your preferred backend service (Netlify Forms, Formspree, etc.).
-
-## 📱 Responsive Design
+## Responsive Design
 
 The website is fully responsive with breakpoints:
 - **Mobile**: 320px - 767px
 - **Tablet**: 768px - 991px
 - **Desktop**: 992px+
 
-## ♿ Accessibility Features
+## Accessibility Features
 
 - Semantic HTML5 structure
 - ARIA labels and roles
@@ -161,48 +131,6 @@ The website is fully responsive with breakpoints:
 - Focus indicators
 - Alt text for images
 
-## 🚀 Deployment Options
-
-### GitHub Pages
-1. Push code to GitHub repository
-2. Go to Settings > Pages
-3. Select source branch (usually `main`)
-4. Your site will be available at `https://username.github.io/repository-name`
-
-### Netlify
-1. Connect your GitHub repository
-2. Configure build settings (no build needed for static site)
-3. Deploy automatically on every push
-
-### Vercel
-1. Import project from GitHub
-2. Configure project settings
-3. Deploy with zero configuration
-
-## 📊 Performance
-
-- **Lighthouse Score**: 95+ across all metrics
-- **Page Load Time**: < 3 seconds
-- **Bundle Size**: Optimized and minified
-- **Images**: Lazy loaded and optimized
-- **Animations**: GPU accelerated
-
-## 🧪 Testing
-
-### Manual Testing
-- [ ] All pages load correctly
-- [ ] Navigation works on all devices
-- [ ] Forms validate properly
-- [ ] Animations work smoothly
-- [ ] Theme toggle functions
-- [ ] Mobile menu operates correctly
-
-### Browser Testing
-- [ ] Chrome (latest)
-- [ ] Firefox (latest)
-- [ ] Safari (latest)
-- [ ] Edge (latest)
-- [ ] Mobile browsers
 
 ## 📈 Future Enhancements
 
@@ -230,7 +158,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Brian Mokaya**
 - Portfolio: [https://brianmokaya.dev](https://brianmokaya.dev)
 - LinkedIn: [https://linkedin.com/in/brianmokaya](https://linkedin.com/in/brianmokaya)
-- GitHub: [https://github.com/brianmokaya](https://github.com/brianmokaya)
+- GitHub: [https://github.com/brianmokaya](https://github.com/brian-mokaya)
 - Email: brian@example.com
 
 ## 🙏 Acknowledgments
