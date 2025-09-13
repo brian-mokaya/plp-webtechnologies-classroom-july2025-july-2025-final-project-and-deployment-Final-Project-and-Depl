@@ -155,11 +155,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Author
 
-**Brian Mokaya**
-- Portfolio: [https://brianmokaya.dev](https://brianmokaya.dev)
-- LinkedIn: [https://linkedin.com/in/brianmokaya](https://linkedin.com/in/brianmokaya)
-- GitHub: [https://github.com/brianmokaya](https://github.com/brian-mokaya)
-- Email: brian@example.com
+**Brian Mokaya
+- GitHub: [https://github.com/brian-mokaya](https://github.com/brian-mokaya)
+- Email: brianmokaya507@gmail.com
 
 ## 🙏 Acknowledgments
 
