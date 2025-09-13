@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Alex Johnson - Web Developer. Get in touch for your next web development project">
+    <meta name="keywords" content="contact, web developer, Alex Johnson, hire developer, project inquiry">
+    <title>Contact - Alex Johnson | Web Developer</title>
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animations.css">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__brand">
+                <a href="index.html" class="nav__logo">
+                    <span class="nav__logo-text">Alex Johnson</span>
+                </a>
+            </div>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="about.html" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="services.html" class="nav__link">Services</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="portfolio.html" class="nav__link">Portfolio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contact.html" class="nav__link active">Contact</a>
+                    </li>
+                </ul>
+                
+                <div class="nav__close" id="nav-close">
+                    <i class="nav__close-icon">×</i>
+                </div>
+            </div>
+            
+            <div class="nav__toggle" id="nav-toggle">
+                <span class="nav__toggle-line"></span>
+                <span class="nav__toggle-line"></span>
+                <span class="nav__toggle-line"></span>
+            </div>
+            
+            <div class="nav__theme-toggle" id="theme-toggle">
+                <i class="nav__theme-icon">🌙</i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Page Header -->
+        <section class="page-header section">
+            <div class="container">
+                <h1 class="page-header__title">Get In Touch</h1>
+                <p class="page-header__subtitle">Let's discuss your next project and bring your ideas to life</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section">
+            <div class="container">
+                <div class="contact__container">
+                    <!-- Contact Info -->
+                    <div class="contact__info">
+                        <h2 class="contact__info-title">Let's Start a Conversation</h2>
+                        <p class="contact__info-description">
+                            I'm always excited to work on new projects and collaborate with amazing people. 
+                            Whether you have a clear vision or just an idea, I'm here to help bring it to life.
+                        </p>
+                        
+                        <div class="contact__methods">
+                            <div class="contact__method">
+                                <div class="contact__method-icon">📧</div>
+                                <div class="contact__method-content">
+                                    <h3 class="contact__method-title">Email</h3>
+                                    <p class="contact__method-text">alex@example.com</p>
+                                    <a href="mailto:alex@example.com" class="contact__method-link">Send Email</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact__method">
+                                <div class="contact__method-icon">📱</div>
+                                <div class="contact__method-content">
+                                    <h3 class="contact__method-title">Phone</h3>
+                                    <p class="contact__method-text">+1 (555) 123-4567</p>
+                                    <a href="tel:+15551234567" class="contact__method-link">Call Now</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact__method">
+                                <div class="contact__method-icon">📍</div>
+                                <div class="contact__method-content">
+                                    <h3 class="contact__method-title">Location</h3>
+                                    <p class="contact__method-text">San Francisco, CA</p>
+                                    <a href="https://maps.google.com" class="contact__method-link" target="_blank">View on Map</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="contact__social">
+                            <h3 class="contact__social-title">Follow Me</h3>
+                            <div class="contact__social-links">
+                                <a href="https://linkedin.com/in/alexjohnson" class="contact__social-link" target="_blank" aria-label="LinkedIn">
+                                    <span class="contact__social-icon">💼</span>
+                                    LinkedIn
+                                </a>
+                                <a href="https://github.com/alexjohnson" class="contact__social-link" target="_blank" aria-label="GitHub">
+                                    <span class="contact__social-icon">🐙</span>
+                                    GitHub
+                                </a>
+                                <a href="https://twitter.com/alexjohnson" class="contact__social-link" target="_blank" aria-label="Twitter">
+                                    <span class="contact__social-icon">🐦</span>
+                                    Twitter
+                                </a>
+                                <a href="https://dribbble.com/alexjohnson" class="contact__social-link" target="_blank" aria-label="Dribbble">
+                                    <span class="contact__social-icon">🏀</span>
+                                    Dribbble
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Contact Form -->
+                    <div class="contact__form-container">
+                        <form class="contact__form" id="contact-form" novalidate>
+                            <h2 class="contact__form-title">Send a Message</h2>
+                            
+                            <div class="form__group">
+                                <div class="form__field">
+                                    <label for="name" class="form__label">Full Name *</label>
+                                    <input type="text" id="name" name="name" class="form__input" required>
+                                    <span class="form__error" id="name-error"></span>
+                                </div>
+                                
+                                <div class="form__field">
+                                    <label for="email" class="form__label">Email Address *</label>
+                                    <input type="email" id="email" name="email" class="form__input" required>
+                                    <span class="form__error" id="email-error"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="form__group">
+                                <div class="form__field">
+                                    <label for="phone" class="form__label">Phone Number</label>
+                                    <input type="tel" id="phone" name="phone" class="form__input">
+                                    <span class="form__error" id="phone-error"></span>
+                                </div>
+                                
+                                <div class="form__field">
+                                    <label for="company" class="form__label">Company</label>
+                                    <input type="text" id="company" name="company" class="form__input">
+                                    <span class="form__error" id="company-error"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="form__field">
+                                <label for="project-type" class="form__label">Project Type *</label>
+                                <select id="project-type" name="project-type" class="form__select" required>
+                                    <option value="">Select a project type</option>
+                                    <option value="website">Website Development</option>
+                                    <option value="web-app">Web Application</option>
+                                    <option value="ecommerce">E-commerce Solution</option>
+                                    <option value="redesign">Website Redesign</option>
+                                    <option value="maintenance">Website Maintenance</option>
+                                    <option value="consultation">Consultation</option>
+                                    <option value="other">Other</option>
+                                </select>
+                                <span class="form__error" id="project-type-error"></span>
+                            </div>
+                            
+                            <div class="form__field">
+                                <label for="budget" class="form__label">Budget Range</label>
+                                <select id="budget" name="budget" class="form__select">
+                                    <option value="">Select budget range</option>
+                                    <option value="under-5k">Under $5,000</option>
+                                    <option value="5k-10k">$5,000 - $10,000</option>
+                                    <option value="10k-25k">$10,000 - $25,000</option>
+                                    <option value="25k-50k">$25,000 - $50,000</option>
+                                    <option value="over-50k">Over $50,000</option>
+                                </select>
+                                <span class="form__error" id="budget-error"></span>
+                            </div>
+                            
+                            <div class="form__field">
+                                <label for="timeline" class="form__label">Project Timeline</label>
+                                <select id="timeline" name="timeline" class="form__select">
+                                    <option value="">Select timeline</option>
+                                    <option value="asap">ASAP</option>
+                                    <option value="1-month">Within 1 month</option>
+                                    <option value="2-3-months">2-3 months</option>
+                                    <option value="3-6-months">3-6 months</option>
+                                    <option value="flexible">Flexible</option>
+                                </select>
+                                <span class="form__error" id="timeline-error"></span>
+                            </div>
+                            
+                            <div class="form__field">
+                                <label for="message" class="form__label">Project Details *</label>
+                                <textarea id="message" name="message" class="form__textarea" rows="6" placeholder="Tell me about your project, goals, and any specific requirements..." required></textarea>
+                                <span class="form__error" id="message-error"></span>
+                            </div>
+                            
+                            <div class="form__field">
+                                <label class="form__checkbox-label">
+                                    <input type="checkbox" id="newsletter" name="newsletter" class="form__checkbox">
+                                    <span class="form__checkbox-text">Subscribe to my newsletter for web development tips and updates</span>
+                                </label>
+                            </div>
+                            
+                            <button type="submit" class="btn btn--primary btn--large form__submit">
+                                <span class="form__submit-text">Send Message</span>
+                                <span class="form__submit-loading">Sending...</span>
+                            </button>
+                            
+                            <div class="form__success" id="form-success">
+                                <div class="form__success-icon">✅</div>
+                                <h3 class="form__success-title">Message Sent Successfully!</h3>
+                                <p class="form__success-text">Thank you for reaching out. I'll get back to you within 24 hours.</p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq section">
+            <div class="container">
+                <h2 class="section__title">Frequently Asked Questions</h2>
+                <div class="faq__container">
+                    <div class="faq__item">
+                        <button class="faq__question" data-faq="1">
+                            <span class="faq__question-text">How long does a typical project take?</span>
+                            <span class="faq__question-icon">+</span>
+                        </button>
+                        <div class="faq__answer" data-faq="1">
+                            <p>Project timelines vary depending on complexity and scope. A simple website typically takes 2-4 weeks, while complex web applications can take 2-6 months. I'll provide a detailed timeline during our initial consultation.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq__item">
+                        <button class="faq__question" data-faq="2">
+                            <span class="faq__question-text">What's included in your development process?</span>
+                            <span class="faq__question-icon">+</span>
+                        </button>
+                        <div class="faq__answer" data-faq="2">
+                            <p>My process includes discovery & planning, design & prototyping, development, testing, deployment, and ongoing support. Each phase includes regular communication and milestone reviews.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq__item">
+                        <button class="faq__question" data-faq="3">
+                            <span class="faq__question-text">Do you provide ongoing maintenance and support?</span>
+                            <span class="faq__question-icon">+</span>
+                        </button>
+                        <div class="faq__answer" data-faq="3">
+                            <p>Yes! I offer comprehensive maintenance packages including security updates, performance monitoring, content updates, and technical support. This ensures your website stays secure and performs optimally.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq__item">
+                        <button class="faq__question" data-faq="4">
+                            <span class="faq__question-text">Can you work with my existing design or do you provide design services?</span>
+                            <span class="faq__question-icon">+</span>
+                        </button>
+                        <div class="faq__answer" data-faq="4">
+                            <p>I can work with your existing designs or create new ones from scratch. I offer both development-only services and full design-to-development packages depending on your needs.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq__item">
+                        <button class="faq__question" data-faq="5">
+                            <span class="faq__question-text">What technologies do you work with?</span>
+                            <span class="faq__question-icon">+</span>
+                        </button>
+                        <div class="faq__answer" data-faq="5">
+                            <p>I work with modern web technologies including React, Vue.js, Node.js, Python, various databases, and cloud platforms. I choose the best technology stack based on your project requirements and goals.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta section">
+            <div class="container">
+                <div class="cta__content">
+                    <h2 class="cta__title">Ready to Get Started?</h2>
+                    <p class="cta__description">
+                        Don't wait - let's turn your ideas into reality. Contact me today for a free consultation.
+                    </p>
+                    <div class="cta__buttons">
+                        <a href="mailto:alex@example.com" class="btn btn--primary btn--large">Email Me Directly</a>
+                        <a href="tel:+15551234567" class="btn btn--outline btn--large">Call Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <h3 class="footer__title">Alex Johnson</h3>
+                    <p class="footer__description">Full-Stack Web Developer</p>
+                </div>
+                <div class="footer__links">
+                    <div class="footer__group">
+                        <h4 class="footer__group-title">Quick Links</h4>
+                        <ul class="footer__list">
+                            <li><a href="index.html" class="footer__link">Home</a></li>
+                            <li><a href="about.html" class="footer__link">About</a></li>
+                            <li><a href="services.html" class="footer__link">Services</a></li>
+                            <li><a href="portfolio.html" class="footer__link">Portfolio</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__group">
+                        <h4 class="footer__group-title">Connect</h4>
+                        <ul class="footer__list">
+                            <li><a href="mailto:alex@example.com" class="footer__link">Email</a></li>
+                            <li><a href="https://linkedin.com/in/alexjohnson" class="footer__link" target="_blank">LinkedIn</a></li>
+                            <li><a href="https://github.com/alexjohnson" class="footer__link" target="_blank">GitHub</a></li>
+                            <li><a href="https://twitter.com/alexjohnson" class="footer__link" target="_blank">Twitter</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copyright">
+                    &copy; 2024 Alex Johnson. All rights reserved. Built with ❤️ and modern web technologies.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="js/main.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/forms.js"></script>
+</body>
+</html>
