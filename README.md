@@ -4,7 +4,7 @@ A modern, responsive portfolio website showcasing web development skills, projec
 
 ## 🌐 Live Demo
 
-**Live URL:** [https://your-username.github.io/portfolio-website](https://mokaya-portfolio.vercel.app/)
+**Live URL:** [https://mokaya-portfolio.vercel.app](https://mokaya-portfolio.vercel.app/)
 
 ## 📋 Project Overview
 
@@ -101,8 +101,8 @@ portfolio-website/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/portfolio-website.git
-   cd portfolio-website
+   git clone https://github.com/brian-mokaya/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl.git
+   cd plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl
    ```
 
 2. **Open in browser**
